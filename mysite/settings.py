@@ -71,6 +71,21 @@ TEMPLATES = [
 WSGI_APPLICATION = 'mysite.wsgi.application'
 
 
+#pag 91 " Sending emails with Django "
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'damr18@gmail.com'
+EMAIL_HOST_PASSWORD = 'Damaresroucan22'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+
+
+
+
+
+
+
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 

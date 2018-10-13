@@ -31,6 +31,9 @@
   <p class="date">
     Published {{post.publish}} by {{post.author}}
   </p>
+  <p class="numComments">
+    number of comments: {{post.comments.count}}
+  </p>
   {{post.body|truncatewords:30|linebreaks}}
   {% endfor %}
 

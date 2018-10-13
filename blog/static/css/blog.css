@@ -34,12 +34,20 @@ h2 {
   height:100%;
 }
 
+p.numComments { 
+  color: #1898ee;
+  font-family: georgia, serif;
+  font-size: 12px;
+  
+}
 p.date { 
-  color:#ccc;
+  color:rgb(90, 65, 65);
   font-family: georgia, serif;
   font-size: 12px;
   font-style: italic; 
 }
+
+
 
 /* pagination */
 .pagination { 

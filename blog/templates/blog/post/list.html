@@ -1,4 +1,5 @@
 {% extends "blog/base.html" %}
+{% load blog_tags %}
 
 {% block title %} My Blog {%endblock%}
 {%block content%}
@@ -34,7 +35,7 @@
   <p class="numComments">
     number of comments: {{post.comments.count}}
   </p>
-  {{post.body|truncatewords:30|linebreaks}}
+  {{post.body|markdown|truncatewords_html:30}}
   {% endfor %}
 
   <!-- <h2>valor de page {{page}}</h2> 

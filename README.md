@@ -1,7 +1,7 @@
 # mysite-DBE
 Ejemplo basico de un blog con Django 2
 
-
+![alt text](https://github.com/DavidMares22/mysite-DBE/blob/master/screanshots/main.JPG)
 
 ## pip freeze
 * Django == 2.0.5
